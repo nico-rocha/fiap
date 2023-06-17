@@ -1,0 +1,130 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  margin: 100;
+  padding: 0;
+}
+
+h1{
+  text-align: center;
+  background-color: #E1D6D6;
+  padding: 90px;
+  border-radius: 10px;
+  color: #0b0b0b;
+  max-width: 3000px;
+  margin-top: 0;
+  font-weight: 10;
+  font-size: 300%;
+}
+
+h2 {
+  display: flex;
+  font-weight: 8;
+}
+
+tr{
+  margin: 0 auto;
+  font-weight: 20;
+  background-color: #D9D9D9; 
+}
+
+th {
+  background-color: #F0EDED;
+  border-radius: 5px;
+  padding: 1%;
+}
+
+td{
+  border-radius: 3px;
+  padding: 2%;
+}
+
+.editar{
+  background-color: #D9D9D9;
+  background-image: url(./editar.jpg);
+  background-position: 60%;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.excluir {
+  background-color: #D9D9D9;
+  background-image: url(./excluir.jpg);
+  background-position: 55%;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+input{
+  border: none;
+  background-color: transparent;
+}
+
+.sair{
+  background-color: #E1D6D6;
+  border-radius: 10px;
+  padding: 1.5%;
+  display: block;
+  margin: 0 auto;
+  background-image: url(./seta-invertida.jpg);
+  background-position: left;
+  background-repeat: no-repeat;
+  width: 10%;
+  font-size: large;
+  cursor: pointer;
+}
+
+.detalhes{
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.recebimento{
+  display: flex;
+  justify-content: space-between;
+}
+
+.novo{
+  background-color: #E1D6D6;
+  border-radius: 10px;
+  padding: 1%;
+  background-image: url(./+.jpg);
+  background-position: right center;
+  background-repeat: no-repeat;
+  padding-right: 60px;
+  cursor: pointer;
+  margin-top: 1%;
+  border: none;
+}
+
+h3, p {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  font-weight: 20;
+}
+
+.nome-saldo{
+  display: flex;
+  background-color: #F0EDED;
+  border-radius: 10px;
+}
+
+.saldo{
+  background-image: url(./eye.jpg);
+  background-repeat: no-repeat;
+  background-position: 102%;
+}
+
+.olho{
+  background-image: url(./eye2.jpg);
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-position: 2%;
+  cursor: pointer;
+}
+
+
+
+
+
